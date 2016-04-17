@@ -1,3 +1,6 @@
+// Copyright (c) 2016, Philippe Brouard. All rights reserved. Use of this source code
+// is governed by a GNU V3 license that can be found in the LICENSE file.
+
 window.addEventListener('complexAction', eventHandlerComplexAction, false);
 window.addEventListener('setupAction', eventHandlerSetup, false);
 

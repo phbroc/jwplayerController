@@ -2,11 +2,15 @@
 
 Little interface for making interactive videos with JW Player. The source code is made of Javascript for communications with JW Player and Dart for handling interactivity. The interactions are visible between videos, not during the videos. The aim of this code is to jump from one video to another, making kind of **videos where you are the hero**.
 
+## Demo site
+
+Visit http://jwci.phbroc.fr/index.html?scenario=scenarios%2Fscenario01.json for a quick demo.
+
 ## Using this code for your interactive videos
 
 With a minimal work, you can use this code for making other interactive videos project. 
 
-**BEWARE** This repository don't contains JW Player 6 files. Get them at [http://www.jwplayer.com](http://www.jwplayer.com).
+**BEWARE** This repository doesn't contain JW Player 6 files. Get them at [http://www.jwplayer.com](http://www.jwplayer.com).
 
 - **[build/web/](build/web/)** *This folder contains a sample project which can be run on a web server.*
 
@@ -25,7 +29,7 @@ If you want to make your own interactive videos project, with a minimal coding w
 5. Edit [build/web/index.html](build/web/index.html) to put your own JW Player key.
 6. Copy and rename [build/web/scenarios/scenario01.json](build/web/scenarios/scenario01.json) in scenario02.json.
 7. Edit your scenario02.json file.
-8. Upload all your web/ folder to a wen server.
+8. Upload all your web/ folder to a web server.
 9. Run the file index.html?scenario=scenarios%2Fscenario02.json
 
 Doing this, you just have two files to edit, the index.html for your JW Player key and the JSON file containing the scenario.
@@ -71,7 +75,7 @@ This file is built as a list of interactive nodes. A node consist of one video w
   },
 ```
 
-A node must contain data for imageIn, movie, imageOut, and data for at leat one choice = choice0. A choice must contain data for targetNode, btnLabel, position, top, left. The choice is displayed as a button above the ending image of the video. Its position is absolute in percentage of the player window (better for responsive design). the name of targetNode says which interactive node of the scenario to play after clicking the button.
+A node must contain data for imageIn, movie, imageOut, and data for at least one choice = choice0. A choice must contain data for targetNode, btnLabel, position, top, left. The choice is displayed as a button above the ending image of the video. Its position is absolute in percentage of the player window (better for responsive design). the name of targetNode says which interactive node of the scenario to play after clicking the button.
 
 ### Simple HTTP streaming sample with OGG format
 
