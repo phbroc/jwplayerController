@@ -66,21 +66,21 @@ void main() {
 
 void makeRequest()
 {
-  var path = 'scenarios/scenario01.json';
-  /*var path = "";
+  //var path = 'scenarios/scenario01.json';
+  var path = "";
   Location currentLocation = window.location;
   var decoded = Uri.decodeFull(currentLocation.href);
-  if (decoded.contains("media="))
+  if (decoded.contains("scenario="))
   {
     //print(decoded.substring(decoded.indexOf("media=")+6));
-    path = decoded.substring(decoded.indexOf("media=")+6);
-  */
+    path = decoded.substring(decoded.indexOf("scenario=")+9);
+
     HttpRequest.getString(path)
         .then(processString)
         .catchError(handleError);
-  /*
+
   }
-  */
+
 }
 
 void processString(String jsonString) {
