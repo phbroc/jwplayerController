@@ -13,7 +13,7 @@
 #  rules if you intend to use dart2js directly
 #  Convention is to use extension '.dart.js' for Dart compiled to Javascript to
 #  differentiate from explicit Javascript files)
-*.dart.js
+# *.dart.js (I comment this extension because I want to show build file in the repository)
 *.part.js
 *.js.deps
 *.js.map
