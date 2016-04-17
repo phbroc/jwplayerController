@@ -6,7 +6,7 @@
 .project
 .pub/
 # build/ (I comment this folder because I want to show build in the repository)
-**/packages/
+# **/packages/ (I comment this folder because I want to show build in the repository)
 
 # Files created by dart2js
 # (Most Dart developers will use pub build to compile Dart, use/modify these 
