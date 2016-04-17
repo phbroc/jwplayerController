@@ -1,0 +1,305 @@
+{
+  "node000": {
+    "imageIn": "twoCircles01a.jpg",
+    "movie": "twoCircles01.ogg",
+    "imageOut": "twoCircles01b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node002",
+      "text": " ",
+      "btnLabel": "Rebond",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node003",
+      "text": " ",
+      "btnLabel": "Croisement",
+      "position": "absolute",
+      "top": "60%",
+      "left": "45%",
+      "autostart": "true"
+    },
+    "choice2": {
+      "targetNode": "node004",
+      "text": " ",
+      "btnLabel": "Fission",
+      "position": "absolute",
+      "top": "60%",
+      "left": "70%",
+      "autostart": "true"
+    }
+  },
+  "node001": {
+    "imageIn": "",
+    "movie": "",
+    "imageOut": ""
+  },
+  "node002": {
+    "imageIn": "twoCircles02a.jpg",
+    "movie": "twoCircles02.ogg",
+    "imageOut": "twoCircles02b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node003",
+      "text": " ",
+      "btnLabel": "Croisement",
+      "position": "absolute",
+      "top": "60%",
+      "left": "20%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node004",
+      "text": " ",
+      "btnLabel": "Fission",
+      "position": "absolute",
+      "top": "60%",
+      "left": "45%",
+      "autostart": "true"
+    },
+    "choice2": {
+      "targetNode": "node005",
+      "text": " ",
+      "btnLabel": "Fusion",
+      "position": "absolute",
+      "top": "60%",
+      "left": "70%",
+      "autostart": "true"
+    }
+  },
+  "node003": {
+    "imageIn": "twoCircles03a.jpg",
+    "movie": "twoCircles03.ogg",
+    "imageOut": "twoCircles03b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node002",
+      "text": " ",
+      "btnLabel": "Rebond",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node004",
+      "text": " ",
+      "btnLabel": "Fission",
+      "position": "absolute",
+      "top": "60%",
+      "left": "45%",
+      "autostart": "true"
+    },
+    "choice2": {
+      "targetNode": "node005",
+      "text": " ",
+      "btnLabel": "Fusion",
+      "position": "absolute",
+      "top": "60%",
+      "left": "70%",
+      "autostart": "true"
+    }
+  },
+  "node004": {
+    "imageIn": "twoCircles04a.jpg",
+    "movie": "twoCircles04.ogg",
+    "imageOut": "twoCircles04b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node009",
+      "text": " ",
+      "btnLabel": "Initialisation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node007",
+      "text": " ",
+      "btnLabel": "Siphon",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  },
+  "node005": {
+    "imageIn": "twoCircles05a.jpg",
+    "movie": "twoCircles05.ogg",
+    "imageOut": "twoCircles05b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node006",
+      "text": " ",
+      "btnLabel": "Séparation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node008",
+      "text": " ",
+      "btnLabel": "Disparition",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  },
+  "node006": {
+    "imageIn": "twoCircles06a.jpg",
+    "movie": "twoCircles06.ogg",
+    "imageOut": "twoCircles06b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node000",
+      "text": " ",
+      "btnLabel": "Attraction",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node010",
+      "text": " ",
+      "btnLabel": "Aimantation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  },
+  "node007": {
+    "imageIn": "twoCircles07a.jpg",
+    "movie": "twoCircles07.ogg",
+    "imageOut": "twoCircles07b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node006",
+      "text": " ",
+      "btnLabel": "Séparation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node008",
+      "text": " ",
+      "btnLabel": "Disparition",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  },
+  "node008": {
+    "imageIn": "twoCircles08a.jpg",
+    "movie": "twoCircles08.ogg",
+    "imageOut": "twoCircles08b.jpg",
+    "nextText": {
+      "text": "Voilà, c’est fini !",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node000",
+      "text": " ",
+      "btnLabel": "Recommencer",
+      "position": "absolute",
+      "top": "60%",
+      "left": "42%",
+      "autostart": "false"
+    }
+  },
+  "node009": {
+    "imageIn": "twoCircles09a.jpg",
+    "movie": "twoCircles09.ogg",
+    "imageOut": "twoCircles09b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node000",
+      "text": " ",
+      "btnLabel": "Attraction",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node010",
+      "text": " ",
+      "btnLabel": "Aimantation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  },
+  "node010": {
+    "imageIn": "twoCircles10a.jpg",
+    "movie": "twoCircles10.ogg",
+    "imageOut": "twoCircles10b.jpg",
+    "nextText": {
+      "text": "Quelle sera la suite ?",
+      "top": "30%",
+      "left": "32%"
+    },
+    "choice0": {
+      "targetNode": "node006",
+      "text": " ",
+      "btnLabel": "Séparation",
+      "position": "absolute",
+      "top": "60%",
+      "left": "25%",
+      "autostart": "true"
+    },
+    "choice1": {
+      "targetNode": "node008",
+      "text": " ",
+      "btnLabel": "Disparition",
+      "position": "absolute",
+      "top": "60%",
+      "left": "65%",
+      "autostart": "true"
+    }
+  }
+}
